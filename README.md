@@ -1,2 +1,2 @@
 # hexo
-personal blog
+personal blog repository
