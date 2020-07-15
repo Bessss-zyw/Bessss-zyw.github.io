@@ -82,7 +82,7 @@ function activateLightMode(){
 <li>找到<code>config/default.json</code>文件，如果有需要修改的参数可以修改（但基本上不需要作什么修改）</li>
 <li>最后一步<code>npm run dev</code>就可以在<code>localhost:7300</code>就可以访问本地部署的<em>Easy Mock</em>了</li>
 </ul>
-<h2 id="Easy-Mock-服务器部署（阿里云版）"><a href="#Easy-Mock-服务器部署（阿里云版）" class="headerlink" title="Easy Mock 服务器部署（阿里云版）"></a>Easy Mock 服务器部署（阿里云版）</h2><p>本地化部署<em>Easy Mock</em>虽然可以在本地运行，不用担心连不上官网的问题，但无法进行多人协作。因此开始考虑并尝试将<em>Easy Mock</em>部署到服务器上，以便协作。<br>我最开始尝试使用<em>AWS educate</em>账号进行部署，但后来发现可以查到的相关资料和教程比较少，大部分教程都是使用<a href="https://click.aliyun.com/se/1000301881/" target="_blank" rel="noopener">阿里云服务器</a>进行部署，因此尝试申请阿里云服务器并开始部署（一开始用学生身份申请了<em>轻量应用服务器</em>，但是好像会容易出现一些问题，后来是使用<em>云服务器ESC</em>部署成功的）。具体操作可以查看这篇<a href="https://juejin.im/post/5dfdcda1f265da33a55fa5a0" target="_blank" rel="noopener">博客</a>，写的比较完整。<br>记录大致步骤如下：</p>
+<h2 id="Easy-Mock-服务器部署（阿里云版）"><a href="#Easy-Mock-服务器部署（阿里云版）" class="headerlink" title="Easy Mock 服务器部署（阿里云版）"></a>Easy Mock 服务器部署（阿里云版）</h2><p>本地化部署<em>Easy Mock</em>虽然可以在本地运行，不用担心连不上官网的问题，但无法进行多人协作。因此开始考虑并尝试将<em>Easy Mock</em>部署到服务器上，以便协作。<br>我最开始尝试使用<em>AWS educate</em>账号进行部署，但后来发现可以查到的相关资料和教程比较少，于是另寻他路。（这里提一下如果没有信用卡光注册<em>AWS</em>账号没啥用，只有<em>AWS educate</em>可以用，注册了之后以后就直接从<em>AWS educate</em>入口<a href="https://aws.amazon.com/education/awseducate/" target="_blank" rel="noopener">登陆</a>。<br>大部分教程都是使用<a href="https://click.aliyun.com/se/1000301881/" target="_blank" rel="noopener">阿里云服务器</a>进行部署，因此尝试申请阿里云服务器并开始部署（一开始用学生身份申请了<em>轻量应用服务器</em>，但是好像会容易出现一些问题，后来是使用<em>云服务器ESC</em>部署成功的）。具体操作可以查看这篇<a href="https://juejin.im/post/5dfdcda1f265da33a55fa5a0" target="_blank" rel="noopener">博客</a>，写的比较完整。<br>记录大致步骤如下：</p>
 <ul>
 <li>首先申请服务器并开始远程连接（连接之前最好重置一下密码）</li>
 <li>按照教程安装<code>node.js</code>，版本尽量别过高，<strong>8.x.x</strong>就好</li>
